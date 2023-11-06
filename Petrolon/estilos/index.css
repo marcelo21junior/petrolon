@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;500&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Catamaran', sans-serif;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    height: 100%;
+   
+  }
+
+#navbarNav {
+    display: flex;
+}
+
+#navbarNav ul {
+    font-size: 1.3em;
+    margin-left: auto;
+    margin-right: 100px;
+ }
+
+ #navbarNav li {
+   padding: 5px;
+ }
+
+ .barra-navegacao img {
+     margin-left: 20px;
+     padding: 0;
+ }
+
+ .apresentation  img{
+   height: 520px; 
+     
+ }
+
+ .apresentation {
+     position: relative;
+ }
+
+ .apresentation__text{
+    position: absolute;
+    top: 400px;
+    margin-left: 150px;
+    margin-right: 150px; 
+    color:white;
+    font-weight: bolder;
+    text-shadow: 2px 2px black;
+ }
+
+.conteudo__home{
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(248,248,255);
+  height: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.1em;
+  margin-bottom: 20px; 
+}
+
+.conteudo__home--text {
+  padding: 10px;
+  margin: 30px 30px 30px 0px;
+}
+
+.conteudo__home--institucional{  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.institucional__missao {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 150px;
+  width: 700px;
+  padding: 5px;
+  background-color: rgba(255,255,255, 0.7);
+  border-radius: 5px;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.institucional__missao h3{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.institucional__missao p{
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.institucional__missao--icon{
+  position: absolute; 
+  margin-top: 20px; 
+  margin-left: -60px;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-image: url(../images/icon-mission.png);
+  background-size: cover;
+}
+
+.institucional__visao{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 150px;
+  width: 700px;
+  padding: 5px;
+  background-color: rgba(255,255,255, 0.7);
+  border-radius: 5px;
+  margin: 25px 25px 25px 25px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+} 
+
+.institucional__visao h3{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.institucional__visao p{
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+.institucional__visao--icon{
+  position: absolute; 
+  margin-top: 20px; 
+  margin-left: -60px;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-image: url(../images/icon-visao.png);
+  background-size: cover;
+}
+
+.institucional__valores{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 200px;
+  width: 700px;
+  padding: 5px;
+  background-color: rgba(255,255,255, 0.7);
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  text-align: center;  
+}
+
+.institucional__valores h3{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.institucional__valores--icon{
+  position: absolute; 
+  margin-top: 20px; 
+  margin-left: -60px;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  background-image: url(../images/icon-valores.png);
+  background-size: cover;
+  
+}
+
+.conteudo__home--cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.conteudo__home--cards img{
+  height: 200px;
+}
+.conteudo__home--solucoes h2{
+  margin-top: 40px;
+}
+
+.card-title{
+  text-align: center;
+  font-weight: bold;
+}
+
+.card {
+  text-align: center;
+}
+
+.card a{
+  color: aliceblue;
+}
+
+.conteudo__sobre h2{
+  margin-top: 20px;
+  
+}
+
+.conteudo__sobre img{
+  height: 300px;
+  width: 300px;
+  margin: 10px 25px 25px 25px;
+}
+
+.conteudo__sobre--text{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 20px 20px 20px 20px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 1.2em;
+}
+
+.conteudo__sobre--politica {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px 30px 30px 30px;
+  border: solid;
+  border-color: rgb(113, 139, 0);
+  width: 70%;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.conteudo__sobre--base{
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 20px 20px 20px 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.conteudo__sobre--base p{
+  padding: 15px;
+  font-size: 1.3em;
+}
+
+.conteudo__sobre--base img {
+  width: 200px;
+  height: 200px;
+}
+
+.conteudo__sobre--rodape{
+  background-color: darkred;
+  color: white;
+  font-weight: bold;
+  margin: 0;
+  padding: 30px;
+}
+
+.conteudo__contato h2{
+margin-top: 20px;
+}
+
+.status {
+  margin: 10px 10px 10px 10px;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: red;
+}
+
+.conteudo__servicos{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 10px;
+  
+}
+
+.conteudo__servicos h2{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.conteudo__servicos p{
+  margin-bottom: 20px;
+  font-size: 1.3em;
+}
+
+.conteudo__servicos ul{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.conteudo__servicos h4{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.conteudo__servicos--listaAssistencia{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.conteudo__servicos--listaAssistencia li{
+  list-style: none;
+}
+
+.conteudo__servicos--lista{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.conteudo__servicos--controls{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+ }
+
+.conteudo__servicos--outros{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.conteudo__servicos--outros img{
+  height: 200px;
+  width: 250px;
+}
+
+.conteudo__servicos--assistencia{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.conteudo__servicos--assistencia img{
+  height: 150px;
+  width: 150px;
+}
+.conteudo__produtos p{
+  font-size: 1.3em;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.conteudo__produtos h2 {
+  margin: 30px 10px 10px 10px;
+}
+
+.conteudo__produtos--card{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.conteudo__produtos--card img{
+  height: 300px; 
+}
+
+.card-header{
+  color: aliceblue;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: darkred;
+}
+
+.card-title{
+  color: black;
+}
+
+
+iframe {
+  width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    #navbarNav ul {
+        margin: 0;
+     }
+
+     .apresentation  img{
+      height: 400px;         
+    }
+
+     .apresentation__text {
+        top: 160px;
+        margin-left: 50px;
+        margin-right: 50px;
+     }
+     .conteudo__home{
+       height: 3500px;      
+    }
+
+    .institucional__missao {
+      height: 290px;
+      width: 250px;     
+    }
+
+    .institucional__visao {
+      height: 370px; 
+      width: 250px;       
+    }
+
+    .institucional__valores {
+      height: 305px;
+      width: 250px;  
+      text-align: right;     
+    }
+
+    .card{
+      margin: 20px 20px 20px 20px;
+    }
+    .conteudo__home--solucoes img{
+      height: 200px;
+    }
+
+    .conteudo__sobre img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .conteudo__sobre--text{
+      flex-wrap: wrap;
+    }
+
+    .conteudo__sobre--base{
+      margin-left: 5px;
+      margin-right: 5px;
+      flex-wrap: wrap;
+    }
+
+    .conteudo__sobre--politica {
+      height: 600px;
+      padding: auto;
+    }
+
+    .conteudo__sobre--base img {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .conteudo__sobre--politica{
+      height: 780px;
+      width: 95%;
+      text-align: center;
+    }
+
+     .conteudo__servicos--listaAssistencia ul{
+      text-align: center;
+      margin-top: 0px;   
+      margin-bottom: 0px;   
+      margin-left: 20px;
+      margin-right: auto;   
+    }
+
+    .ul-item-1 {
+      margin-left: 15px;
+    }
+
+    .conteudo__servicos--lista ul{
+      margin-top: 0px;   
+      margin-bottom: 0px; 
+    }
+}
